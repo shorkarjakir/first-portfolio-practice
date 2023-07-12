@@ -22,7 +22,7 @@ font-weight: 700;
 
 
 .btn-primary{
-  border-radius: 5px;
+border-radius: 5px;
 background: #FD6E0A;
 border: 0px;
 color: #FFF;
@@ -31,12 +31,7 @@ font-style: normal;
 font-weight: 700;
 padding: 18px 35px;
 }
-.nav-title{
-  color: #181818;
-font-size: 45px;
-font-weight: 800;
-margin: 0px 200px;
-}
+
 nav > ul{
   display: flex;
   align-items: center;
@@ -49,6 +44,12 @@ nav li{
 nav a{
   text-decoration: none;
   color: #474747;
+}
+.nav-title{
+  color: #181818;
+font-size: 45px;
+font-weight: 800;
+margin: 0px 200px;
 }
 /* banner section  */
 .header{
@@ -67,8 +68,8 @@ nav a{
   max-width: 500px;
 }
 .banner-pic{
-  width: 584px;
-height: 600px;
+/* width: 584px;
+height: 600px; */
 }
 .btn-contract{
 border-radius: 5px;
@@ -106,6 +107,7 @@ main{
   max-width: 1140px;
   margin: 0px auto;
 }
+
 /* about section start  */
 .about{
   padding: 130px;
@@ -136,4 +138,12 @@ line-height: 30px;
 }
 #what-i-do{
   padding: 30px 150px;
+  text-align: center;
+}
+.skill{
+padding: 50px;
+gap: 24px;
+}
+.skills-container{
+  display: flex;
 }
