@@ -215,8 +215,20 @@ footer{
   margin-top: 80px;
   padding: 130px 200px;
   gap: 100px;
-  
+  width: 0 auto;
 }
 .footer-colum{
 
+}
+.social-item a{
+  margin-right: 25px;
+}
+.contract input[type="text"], .contract input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  border: 0px;
+  width: 100%;
 }
