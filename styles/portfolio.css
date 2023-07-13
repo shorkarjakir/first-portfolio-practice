@@ -166,8 +166,9 @@ text-align: center;
 font-weight: 700;
 }
 /* summary section start  */
+
 .summary-title{
-color: var(--dark-01, #181818);
+color: #181818;
 text-align: center;
 font-size: 35px;
 font-weight: 700;
@@ -175,4 +176,35 @@ font-weight: 700;
 /* resume section  */
 .resume-container{
   display: flex;
+  gap: 50px;
+  
+}
+.resume-colum{
+
+}
+.resume-colum-title{
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-ins, .resume-dis{
+  color: #757575;
+}
+..resume-dis{
+  font-size: 16px;
+}
+.resume-title{
+color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+margin-bottom: 10px;
+}
+.resume-ins{
+  margin-bottom: 20px;
+}
+/* button section  */
+.button-container{
+  text-align: center;
+  margin-top: 40px;
 }
